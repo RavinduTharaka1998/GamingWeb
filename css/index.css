@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, #272729 , black, #272729);
+}
+
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    background: black;
+    align-items: center;
+}
+
+.top .tittle {
+    color: white;
+    font-size: 20px;
+}
+
+.top .tittle span {
+    color: #fc03db !important;
+}
+
+.top .menu a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+
+.top .end a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+.top .end .end-btn {
+    background: #fc03db;
+    padding: 5px 20px;
+    font-weight: 800;
+    border-radius: 4px;
+}
+
+
+.middle {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+.middle-inner {
+    margin-left: 85px;
+    width: 30%;
+    color: white;
+}
+
+.middle-inner h1 {
+    font-size: 70px;
+    line-height: 80%;
+}
+
+.middle-inner h1 span{
+    background: -webkit-linear-gradient(#fc03db, #2f09ed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.middle-inner .bottom {
+    margin-top: 50px;
+}
+
+.middle-inner .bottom .btn-1{
+    background: #fc03db;
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.middle-inner .bottom .btn-2{
+    background: transparent;
+    color: #fc03db;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.back img {
+    width: 600px;
+    height: 650px;
+    display: block;
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+.gallery {
+    margin-top: 100px;
+}
+
+.gallery button {
+   display: block;
+   margin: 0 auto;
+   background: transparent;
+   border: #2f09ed solid 0.1px;
+   color: #2f09ed;
+   padding: 4px 10px;
+}
+
+.gallery h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.gallery p {
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+}
+
+.grid-view {
+    display: inline-flex;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.grid-view .img-col {
+    width: 100%;
+}
+
+.gallery p a {
+    text-decoration: none;
+    color: #fc03db;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+.footer-top {
+    color: white;
+    background-image: linear-gradient(to right, #fc03db , #2f09ed);
+    display: block;
+    margin: 100px auto;
+    width: 88%;
+    padding: 40px 0;
+    border-radius: 4px;
+}
+
+.footer-top h1 {
+    font-size: 60px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-top p {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.footer-top .subscribe {
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+form input[type=email] {
+    border: white solid;
+    outline: none;
+    background: transparent;
+    color: white;
+    padding: 5px 2px;
+    width: 30%;
+}
+
+::placeholder {
+    color: white;
+  }
+
+form input[type=submit] {
+    outline: none;
+    background: black;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+
+.footer-bottom {
+    display: flex;
+    padding: 0px 80px;
+    justify-content: space-between;
+}
+
+.footer-bottom .col-1 h2 {
+    color: white;
+}
+
+.footer-bottom .col-1 h2 span{
+    color: #fc03db;
+}
+
+.footer-bottom .col-1 p {
+    opacity: 0.7;
+    color: white;
+}
+
+
+.footer-bottom .col-2 p {
+    opacity: 0.7;
+    color: white;
+}
+
+.footer-bottom .col-2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom .col-3 p {
+    opacity: 0.7;
+    color: white;
+}
+
+.footer-bottom .col-3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom .col-4 p {
+    opacity: 0.7;
+    color: white;
+}
+
+.footer-bottom .col-4 a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom .col-5 p {
+    opacity: 0.7;
+    color: white;
+}
+
+.footer-bottom .col-5 a {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    text-align: center;
+    width: 90%;
+}
+
+h6 {
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+    font-size: 15px;
+}
